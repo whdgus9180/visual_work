@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        .my-class{
+            font-weight: bold;
+        }
+        .my-class2{
+            color: yellow;
+        }
+        .my-class3{
+            font-weight: bold;
+        }
+        caption{
+            font-size: x-large;
+            font-weight: bold;
+        }
+        thead{
+            background-color: midnightblue;
+            color: white;
+        }
+        tfoot{
+            font-weight: bold;
+            text-align: center;
+            background-color: yellow;
+            color: red;
+        }
+        tbody{
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Table 연습하기</h1>
+    <table border="3" class="my-table">
+        <caption>회 비 정 산</caption>
+        <colgroup>
+            <col width="80">
+            <col width="120">
+            <col width="120">
+            <col width="120">
+            <col width="120">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>이 름</th>
+                <th>횟 집</th>
+                <th>이자카야</th>
+                <th>순댓국</th>
+                <th class="my-class2">합 계</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>합 계</th>
+                <td>105,000원</td>
+                <td>45,000원</td>
+                <td>24,000원</td>
+                <td>174,000원</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td class="my-class">A</td>
+                <td>35,000원</td>
+                <td>15,000원</td>
+                <td>12000원</td>
+                <td class="my-class3">62000원</td>
+            </tr>     
+            <tr>
+                <td class="my-class">B</td>
+                <td>35,000원</td>
+                <td>15,000원</td>
+                <td>12000원</td>
+                <td class="my-class3">62000원</td>
+            </tr>     
+            <tr>
+                <td class="my-class">C</td>
+                <td>35,000원</td>
+                <td>15,000원</td>
+                <td>ㅡ</td>
+                <td class="my-class3">50,000원</td>
+            </tr>     
+        </tbody>
+    </table>
+</body>
+</html>
