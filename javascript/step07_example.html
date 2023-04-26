@@ -24,7 +24,7 @@
         let names=["김구라", "해골", "원숭이", "주뎅이", "덩어리"];
         //버튼을 눌렀을때 위의 배열에 저장된 이름을 친구 목록에 출력해 보세요
         document.querySelector("#printBtn").addEventListener("click", ()=>{
-            for(let i=0;i<5 ;i++){
+            for(let i=0; i<5 ;i++){
                 let li=document.createElement("li");
                 li.innerText=names[i];
                 document.querySelector("#friendList").append(li);
